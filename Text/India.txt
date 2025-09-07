@@ -1,0 +1,77 @@
+India = 
+
+Andaman & Nicobar Island(3)
+Andhra Pradesh(83)
+Arunachal Pradesh(29)
+Assam(33)
+Bihar(48)
+Chhattisgarh(31)
+Chandigarh(1)
+Delhi(16)
+UT of DNH and DD(3)
+Goa(13)
+Gujarat(37)
+Himachal Pradesh(96)
+Haryana(98)
+Jharkhand(25)
+Jammu and Kashmir(21)
+Karnataka(68)
+Kerala(87)
+Ladakh(3)
+Lakshadweep(6)
+Maharashtra(59)
+Meghalaya(15)
+Manipur(13)
+Madhya Pradesh(53)
+Mizoram(10)
+Nagaland(9)
+Odisha(39)
+Punjab(96)
+Rajasthan(59)
+Puducherry(8)
+Sikkim(9)
+Tamil Nadu(148)
+Uttarakhand(21)
+Tripura(9)
+Uttar Pradesh(77)
+West Bengal(59)
+
+
+
+state_list = [
+    "Andaman & Nicobar Island(3)",
+    "Andhra Pradesh(83)",
+    "Arunachal Pradesh(29)",
+    "Assam(33)",
+    "Bihar(48)",
+    "Chhattisgarh(31)",
+    "Chandigarh(1)",
+    "Delhi(16)",
+    "UT of DNH and DD(3)",
+    "Goa(13)",
+    "Gujarat(37)",
+    "Himachal Pradesh(96)",
+    "Haryana(98)",
+    "Jharkhand(25)",
+    "Jammu and Kashmir(21)",
+    "Karnataka(68)",
+    "Kerala(87)",
+    "Ladakh(3)",
+    "Lakshadweep(6)",
+    "Maharashtra(59)",
+    "Meghalaya(15)",
+    "Manipur(13)",
+    "Madhya Pradesh(53)",
+    "Mizoram(10)",
+    "Nagaland(9)",
+    "Odisha(39)",
+    "Punjab(96)",
+    "Rajasthan(59)",
+    "Puducherry(8)",
+    "Sikkim(9)",
+    "Tamil Nadu(148)",
+    "Uttarakhand(21)",
+    "Tripura(9)",
+    "Uttar Pradesh(77)",
+    "West Bengal(59)"
+]
