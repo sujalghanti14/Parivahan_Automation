@@ -9,11 +9,11 @@ def process_multiple_car_manufacturer_data():
     Process multiple Excel files from a folder and compile them into one sheet.
     Transform car manufacturer fuel data from wide format to long (tidy) format.
     Includes location information extracted from A1 cell of each file.
-    
+
     """
     
     # Step 1: Define folder path containing Excel files
-    folder_path = r"C:\Users\sujal\Documents\Raam Group\Parivahan\Raw Data\4W\4W AP 2025\Aug 2025"
+    folder_path = r"C:\Users\sujal\Documents\Raam Group\Parivahan\Raw Data\2W\2W TN 2025\Sept 2025"
     
     print("📁 Processing multiple Excel files from folder...")
     print(f"Folder path: {folder_path}")

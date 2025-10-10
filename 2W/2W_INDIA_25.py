@@ -23,9 +23,9 @@ def safe_click_download():
     btn.click()
 
 
-State_dropdown_id = "j_idt39"
-refresh_button_id = "j_idt71"
-vehicle_category_refrash_id = "j_idt76"
+State_dropdown_id = "j_idt34"
+refresh_button_id = "j_idt68"
+vehicle_category_refrash_id = "j_idt77"
 
 
 
@@ -48,17 +48,17 @@ states = [
     # "Delhi(16)",
     # "UT of DNH and DD(3)",
     # "Goa(13)",
-    #             "Gujarat(37)",
-    #             "Himachal Pradesh(96)",
-    #             "Haryana(98)",
-    #             "Jharkhand(25)",
-    #             "Jammu and Kashmir(21)",
-    #             "Karnataka(68)",
-    #             "Kerala(87)",
-    #             "Ladakh(3)",
-    #             "Lakshadweep(6)",
-    #             "Maharashtra(59)",
-    # "Meghalaya(15)",
+                # "Gujarat(37)",
+                # "Himachal Pradesh(96)",
+                # "Haryana(98)",
+                # "Jharkhand(25)",
+                # "Jammu and Kashmir(21)",
+                # "Karnataka(68)",
+                # "Kerala(87)",
+                # "Ladakh(3)",
+                "Lakshadweep(7)",
+                "Maharashtra(59)",
+    "Meghalaya(15)",
     "Manipur(17)",
     "Madhya Pradesh(53)",
     "Mizoram(10)",
@@ -68,7 +68,6 @@ states = [
     "Rajasthan(59)",
     "Puducherry(8)",
     "Sikkim(9)",
-                "Tamil Nadu(148)",
                 "Uttarakhand(21)",
                 "Tripura(9)",
                 "Uttar Pradesh(77)",
@@ -105,7 +104,7 @@ vehicle_filter_button.click()
 time.sleep(1)
 
 # --- Month list ---
-months = ["AUG"]
+months = ["SEP"]
 
 # --- Loop through States ---
 for state_name in states:

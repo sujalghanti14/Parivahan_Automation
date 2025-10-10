@@ -22,9 +22,9 @@ def safe_click_download():
     btn = wait.until(EC.element_to_be_clickable((By.ID, "groupingTable:xls")))
     btn.click()
 
-State_dropdown_id = "j_idt39"
-refresh_button_id = "j_idt71"
-vehicle_category_refrash_id = "j_idt76"
+State_dropdown_id = "j_idt34"
+refresh_button_id = "j_idt68"
+vehicle_category_refrash_id = "j_idt77"
 
 # --- Select State ---
 dropdown_state = wait.until(EC.element_to_be_clickable((By.ID, State_dropdown_id)))
@@ -68,16 +68,16 @@ rto_list = [
 
 
 
-    "AKLUJ - MH45( 03-APR-2017 )",
-    "AMBEJOGAI - MH44( 02-MAY-2017 )",
-    "AMRAWATI - MH27( 21-JAN-2017 )",
-    "BARAMATI - MH42( 10-MAR-2017 )",
-    "BEED - MH23( 17-MAR-2017 )",
-    "BHADGAON - MH54( 20-MAR-2024 )",
-    "BHANDARA - MH36( 12-APR-2017 )",
-    "BULDHANA - MH28( 07-NOV-2017 )",
-    "CHALISGAON - MH52( 05-MAR-2024 )",
-    "CHHATRAPATI SAMBHAJINAGAR - MH20( 20-OCT-2016 )",
+        "AKLUJ - MH45( 03-APR-2017 )",
+        "AMBEJOGAI - MH44( 02-MAY-2017 )",
+        "AMRAWATI - MH27( 21-JAN-2017 )",
+        "BARAMATI - MH42( 10-MAR-2017 )",
+        "BEED - MH23( 17-MAR-2017 )",
+        "BHADGAON - MH54( 20-MAR-2024 )",
+        "BHANDARA - MH36( 12-APR-2017 )",
+        "BULDHANA - MH28( 07-NOV-2017 )",
+        "CHALISGAON - MH52( 05-MAR-2024 )",
+        "CHHATRAPATI SAMBHAJINAGAR - MH20( 20-OCT-2016 )",
     "Chiplun Chiplun Track - MH202( 04-DEC-2019 )",
     "DHARASHIV - MH25( 31-OCT-2017 )",
     "DHULE - MH18( 03-JAN-2017 )",
@@ -88,16 +88,16 @@ rto_list = [
     "ICHALKARANJI - MH51( 07-MAR-2024 )",
     "JALANA - MH21( 03-AUG-2017 )",
     "KALYAN - MH5( 11-MAY-2017 )",
-    "KARAD - MH50( 20-MAR-2017 )",
-    "KHAMGAON - MH56( 15-APR-2025 )",
-    "KOLHAPUR - MH9( 02-MAR-2017 )",
-    "MALEGAON - MH41( 23-AUG-2017 )",
-    "MIRA BHAYANDAR - MH58( 07-MAY-2025 )",
-    "MUMBAI (CENTRAL) - MH1( 15-DEC-2016 )",
-    "MUMBAI (EAST) - MH3( 13-DEC-2016 )",
-    "MUMBAI (WEST) - MH2( 21-APR-2017 )",
-    "NAGPUR (EAST) - MH49( 17-APR-2017 )",
-    "NAGPUR (RURAL) - MH40( 17-JAN-2017 )",
+        "KARAD - MH50( 20-MAR-2017 )",
+        "KHAMGAON - MH56( 15-APR-2025 )",
+        "KOLHAPUR - MH9( 02-MAR-2017 )",
+        "MALEGAON - MH41( 23-AUG-2017 )",
+        "MIRA BHAYANDAR - MH58( 07-MAY-2025 )",
+        "MUMBAI (CENTRAL) - MH1( 15-DEC-2016 )",
+        "MUMBAI (EAST) - MH3( 13-DEC-2016 )",
+        "MUMBAI (WEST) - MH2( 21-APR-2017 )",
+        "NAGPUR (EAST) - MH49( 17-APR-2017 )",
+        "NAGPUR (RURAL) - MH40( 17-JAN-2017 )",
     "NAGPUR (U) - MH31( 18-JAN-2017 )",
     "NANDED - MH26( 12-JAN-2017 )",
     "NANDURBAR - MH39( 02-MAY-2017 )",
@@ -108,16 +108,16 @@ rto_list = [
     "PHALTAN - MH53( 03-SEP-2024 )",
     "PUNE - MH12( 25-JAN-2017 )",
     "RTO AHEMEDNAGAR - MH16( 16-MAR-2017 )",
-    "RTO AKOLA - MH30( 20-FEB-2017 )",
-    "R.T.O.BORIVALI - MH47( 21-APR-2017 )",
-    "RTO CHANDRAPUR - MH34( 25-APR-2017 )",
-    "RTO JALGAON - MH19( 24-MAR-2017 )",
-    "RTO LATUR - MH24( 15-MAR-2017 )",
-    "RTO MH04-Mira Bhayander FitnessTrack - MH203( 01-MAY-2022 )",
-    "RTO PIMPRI CHINCHWAD - MH14( 06-FEB-2017 )",
-    "RTO SATARA - MH11( 04-MAR-2017 )",
-    "RTO SOLAPUR - MH13( 05-APR-2017 )",
-    "SANGLI - MH10( 03-MAR-2017 )",
+        "RTO AKOLA - MH30( 20-FEB-2017 )",
+        "R.T.O.BORIVALI - MH47( 21-APR-2017 )",
+        "RTO CHANDRAPUR - MH34( 25-APR-2017 )",
+        "RTO JALGAON - MH19( 24-MAR-2017 )",
+        "RTO LATUR - MH24( 15-MAR-2017 )",
+        "RTO MH04-Mira Bhayander FitnessTrack - MH203( 01-MAY-2022 )",
+        "RTO PIMPRI CHINCHWAD - MH14( 06-FEB-2017 )",
+        "RTO SATARA - MH11( 04-MAR-2017 )",
+        "RTO SOLAPUR - MH13( 05-APR-2017 )",
+        "SANGLI - MH10( 03-MAR-2017 )",
     "SINDHUDURG(KUDAL) - MH7( 10-APR-2017 )",
     "SRIRAMPUR - MH17( 22-MAR-2017 )",
     "TC OFFICE - MH99( 06-JUN-2018 )",
@@ -128,13 +128,13 @@ rto_list = [
     "VASHI (NEW MUMBAI) - MH43( 07-JUL-2016 )",
     "WARDHA - MH32( 06-APR-2017 )",
     "WASHIM - MH37( 11-APR-2017 )",
-    "YAWATMAL - MH29( 07-JUL-2017 )"
+        "YAWATMAL - MH29( 07-JUL-2017 )"
 
 ]
 
 
 # --- Month list ---
-months = ["AUG"]
+months = ["SEP"]
 
 # --- Loop through RTOs ---
 for rto_name in rto_list:
