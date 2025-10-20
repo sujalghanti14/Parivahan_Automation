@@ -1,10 +1,17 @@
 import pandas as pd
 
-# Load Excel file
-file_path = r"C:\Users\sujal\Documents\Raam Group\sep tele.xlsx"  # change path if needed
-df = pd.read_excel(file_path, sheet_name="Sheet1")
+df = pd.read_csv(r"C:\Users\sujal\Downloads\2.csv")
 
-# Rename columns for consistency
+df['todate'] = pd.to_datetime(df['todate'], dayfirst=True, errors='coerce')
+df['Month'] = df['todate'].dt.strftime('%b %Y')
+
+
+df = df.drop(['modelDesc' ,'colour', 'makeYear', 'seatCapacity','secondVehicle','tempRegistrationNumber',
+               'category', 'fromdate', 'todate'], axis=1)
+
+df = df[df['vehicleClass'].isin(['MOTOR CYCLE', 'MOTOR CAR', 'Motor Cab', 'Maxi Cab', 'Motor Cycle for Hire'])]
+
+
 df = df.rename(columns={
     "makerName": "Maker Name",
     "OfficeCd": "RTA",
@@ -13,7 +20,6 @@ df = df.rename(columns={
     "Month": "Month"
 })
 
-# Group by required columns and count
 result = (
     df[["Maker Name", "RTA", "Fuel Type", "Vehicle Type", "Month"]]
     .groupby(["Maker Name", "RTA", "Fuel Type", "Vehicle Type", "Month"])
@@ -21,7 +27,8 @@ result = (
     .reset_index(name="Count")
 )
 
-# Save to Excel
-result.to_excel("Transformed_RTA_Data.xlsx", index=False)
+result.to_csv("output.csv", index=False)
 
 print("✅ Transformation complete. File saved as Transformed_RTA_Data.xlsx")
+
+

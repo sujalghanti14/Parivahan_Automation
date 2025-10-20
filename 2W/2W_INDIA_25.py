@@ -23,9 +23,9 @@ def safe_click_download():
     btn.click()
 
 
-State_dropdown_id = "j_idt34"
-refresh_button_id = "j_idt68"
-vehicle_category_refrash_id = "j_idt77"
+State_dropdown_id = "j_idt33"
+refresh_button_id = "j_idt63"
+vehicle_category_refrash_id = "j_idt68"
 
 
 
@@ -48,30 +48,30 @@ states = [
     # "Delhi(16)",
     # "UT of DNH and DD(3)",
     # "Goa(13)",
-                # "Gujarat(37)",
-                # "Himachal Pradesh(96)",
-                # "Haryana(98)",
-                # "Jharkhand(25)",
-                # "Jammu and Kashmir(21)",
-                # "Karnataka(68)",
-                # "Kerala(87)",
-                # "Ladakh(3)",
+                "Gujarat(37)",
+                "Himachal Pradesh(96)",
+                "Haryana(98)",
+                "Jharkhand(25)",
+                "Jammu and Kashmir(21)",
+                "Karnataka(68)",
+                "Kerala(87)",
+                "Ladakh(3)",
                 "Lakshadweep(7)",
                 "Maharashtra(59)",
-    "Meghalaya(15)",
-    "Manipur(17)",
-    "Madhya Pradesh(53)",
-    "Mizoram(10)",
-    "Nagaland(9)",
-    "Odisha(39)",
-    "Punjab(96)",
-    "Rajasthan(59)",
-    "Puducherry(8)",
-    "Sikkim(9)",
-                "Uttarakhand(21)",
-                "Tripura(9)",
-                "Uttar Pradesh(77)",
-                "West Bengal(59)"
+    # "Meghalaya(15)",
+    # "Manipur(17)",
+    # "Madhya Pradesh(53)",
+    # "Mizoram(10)",
+    # "Nagaland(9)",
+    # "Odisha(39)",
+    # "Punjab(96)",
+    # "Rajasthan(59)",
+    # "Puducherry(8)",
+    # "Sikkim(9)",
+    #             "Uttarakhand(21)",
+    #             "Tripura(9)",
+    #             "Uttar Pradesh(77)",
+    #             "West Bengal(59)"
 ]
 
 # Select Y-Axis = Maker
